@@ -1,0 +1,1 @@
+Webfonts is a WordPress plugin that utilizes Google web fonts.
