@@ -12,7 +12,7 @@ Author URI: http://uly.me
 // include main file
 
 function ur_google_webfonts() {
-	include('ur_main.php');
+	include('main.php');
 }
 
 // add this plugin under the appearance theme pages
@@ -32,7 +32,7 @@ function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'ur-web-fonts',
 		'title' => 'UR Web Fonts',
-		'href'  => admin_url('options-general.php?page=webfonts/ur_web_fonts.php'),	
+		'href'  => admin_url('options-general.php?page=webfonts/webfonts.php'),	
 		'meta'  => array(
 		'title' => __('UR Web Fonts'),			
 		),
